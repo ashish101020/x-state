@@ -1,0 +1,69 @@
+/* Add your custom CSS styles here */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  div {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .dropdown {
+    font-size: 16px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Style the dropdown options */
+  select option {
+    font-size: 14px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Style the selected option */
+  select option:checked {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Style the disabled option */
+  select option:disabled {
+    color: #ccc;
+  }
+  
+  /* Hover effect on options */
+  select option:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Additional CSS for the displayed location information */
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .highlight {
+    color: #007bff; /* Highlighted text color */
+    font-weight: bold;
+    font-size: xx-large;
+  }
+  
+  .fade {
+    color: #777; /* Faded text color */
+    font-style: italic;
+  }
